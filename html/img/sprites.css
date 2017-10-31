@@ -1,0 +1,28 @@
+.sprites, .icon-symptom4, .icon-symptom5, .icon-instruction6{
+	background: url(sprites.png) no-repeat;
+}
+
+.sprites{
+	background-position: 0 0;
+	width: 39px;
+	height: 371px;
+}
+
+.icon-symptom4{
+	background-position: 0 -375px ;
+	width: 30px;
+	height: 24px;
+}
+
+.icon-symptom5{
+	background-position: 0 -404px ;
+	width: 31px;
+	height: 25px;
+}
+
+.icon-instruction6{
+	background-position: 0 -432px ;
+	width: 39px;
+	height: 38px;
+}
+

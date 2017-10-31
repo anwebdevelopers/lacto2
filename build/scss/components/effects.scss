@@ -1,0 +1,146 @@
+.effects {
+    padding: 6rem 0 3rem 0;
+    overflow: hidden;
+}
+.effects__container {
+
+}
+.effects__box {
+    display: flex;
+    align-items: center;
+    margin: 4rem 0 0 0;
+}
+.effects__text {
+    flex: 0 1 auto;
+    width: 41%;
+    margin: -16rem -6% 0 5%;
+    padding: 26rem 8% 16rem 8%;
+    font-size: 2.4rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Panton';
+    background-image: url(../img/bg-effects-text.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.effects__list {
+    flex: 0 1 auto;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.effects__list-item {
+    position: relative;
+    padding:  0 0 0 8rem;
+    margin: 6rem 0 0 0;
+    &:first-child {
+        margin-top: 0;
+    }
+    &:nth-child(even) {
+        .effects__list-icon {
+            &:before {
+                background-image: url(../img/bg-icon-spot-pink.png);
+            }
+        }
+    }
+    &:nth-child(3n+1) {
+        .effects__list-icon {
+            &:before {
+                transform: rotate(45deg);
+            }
+        }
+    }
+    &:nth-child(3n+2) {
+        .effects__list-icon {
+            &:before {
+                transform: rotate(90deg);
+            }
+        }
+    }
+    &:nth-child(3n+3) {
+        .effects__list-icon {
+            &:before {
+                transform: rotate(135deg);
+            }
+        }
+    }
+    &:nth-child(3n+4) {
+        .effects__list-icon {
+            &:before {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+.effects__list-icon {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    transform: translate(-50%, -50%);
+    width: 6rem;
+    height: 6rem;
+    margin: 0;
+    line-height: 6rem;
+    text-align: center;
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url(../img/bg-icon-spot-blue.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+.effects__list-text {
+    margin: 0;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+@media only screen and (max-width : 1400px) {
+
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    .effects__box {
+        display: block;
+    }
+    .effects__text {
+        margin: 4rem 0 0 0;
+        width: auto;
+        padding: 26rem 8rem 16rem 8rem;
+    }
+    .effects__list {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}
